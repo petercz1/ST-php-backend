@@ -3,8 +3,35 @@ $main-font: 'Roboto', sans-serif;
 
 body {
   font-family: -font;
+  padding-top: 70px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: -font;
+}
+
+.right{
+    float: right;
+}
+.left{
+    float:left;
+}
+.full_width{
+    width: 100%;
+}
+
+.full_width *{
+    margin: 0.2em;
+}
+
+#input_command{
+    display: block;
+    margin: auto;
+}
+
+#submit{
+    width: 10em;
+}
+td{
+    width: 100%;
 }
